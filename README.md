@@ -1,8 +1,8 @@
 # React + TypeScript + Vite
 
-Create a .env file based on .env.template
-npm install
-npm run dev
+- Create a .env file based on .env.template
+- npm install
+- npm run dev
 
 --------------------------------
 
