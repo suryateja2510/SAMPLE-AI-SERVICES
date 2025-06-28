@@ -1,0 +1,88 @@
+## 🧪 Sample Prompts for Testing Azure AI Language Features
+
+Use the prompts below to test each language capability supported by this application.
+
+---
+
+### 1. Entity Linking
+
+**Prompt:**
+```
+Satya Nadella is the CEO of Microsoft and lives in the United States.
+```
+
+**Expected Output:**
+- Links to entities like Satya Nadella, Microsoft, and United States (e.g., Wikipedia)
+
+---
+
+### 2. Entity Recognition
+
+**Prompt:**
+```
+John Doe flew from New York to London on July 15th using British Airways.
+```
+
+**Expected Entities:**
+- Person: John Doe  
+- Location: New York, London  
+- Date: July 15th  
+- Organization: British Airways
+
+---
+
+### 3. Key Phrase Extraction
+
+**Prompt:**
+```
+The iPhone 15 Pro Max offers an improved camera system, titanium body, and longer battery life.
+```
+
+**Expected Key Phrases:**
+- iPhone 15 Pro Max  
+- improved camera system  
+- titanium body  
+- longer battery life
+
+---
+
+### 4. PII Entity Recognition
+
+**Prompt:**
+```
+My name is Sarah and my email is sarah.jones@example.com. My SSN is 123-45-6789.
+```
+
+**Expected PII Entities:**
+- Name: Sarah  
+- Email: sarah.jones@example.com  
+- SSN: 123-45-6789
+
+---
+
+### 5. Language Detection
+
+**Prompt:**
+```
+Hola, me llamo Carlos y soy de España.
+```
+
+**Expected Output:**
+- Language detected: Spanish (`es`)
+
+---
+
+### 6. Sentiment Analysis
+
+**Prompt:**
+```
+The product quality is amazing, but the shipping took too long.
+```
+
+**Expected Output:**
+- Sentiment: Mixed  
+- Sentence sentiments:
+  - Positive: "The product quality is amazing"
+  - Negative: "the shipping took too long"
+
+---
